@@ -1,0 +1,5 @@
+# Python - Data Structures: Lists, Tuples
+
+### Defination
+
+Data Structures are a way of organizing data so that it can be accessed more efficiently depending upon the situation. Data Structures are fundamentals of any programming language around which a program is built. Python helps to learn the fundamental of these data structures in a simpler way as compared to other programming languages.
