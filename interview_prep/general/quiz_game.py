@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+# Version 1 of the code
 # the right number
 num_right = 0
 
@@ -20,3 +21,19 @@ if guess.lower() == 'maine':
 else:
     print("Wrong the answer is Maine")
 print('You have', num_right, 'out of 2 right')
+
+# Version 2 of the code
+questions = ['What is the capital of france?', 'Which state has only one neighbor?']
+
+answer = ['Paris', 'Maine']
+
+num_right = 0
+
+for i  in range(len(questions)):
+    guess = input(questions[i])
+    if guess.lower == answer[i].lower():
+        print("Correct !")
+        num_right = num_right + 1
+    else:
+        print("Wrong answer. The answer is", answer[i])
+    print("You have", num_right, "out of", i+1, 'right')
